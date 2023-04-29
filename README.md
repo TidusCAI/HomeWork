@@ -1,2 +1,2 @@
 # homwork
-Web system course
+これはWEBシステム授業の課題です
