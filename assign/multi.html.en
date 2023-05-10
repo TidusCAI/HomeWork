@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="This is a web page introducing my favorite town." />
+    <meta name="robots" content="index,follow">
+    <meta name="author" content="Cai Yifan" />
+    <link rel="icon" href="https://cdn.dribbble.com/users/420263/screenshots/3399171/guangzhou.jpg" />
+     <base target="_blank" />
+    <title>GuangZhou</title>
+</head>
+<body>
+    <header>
+    <h1> GuangZhou</h1>
+    <h2>メニュー</h2>
+    <ul>
+        <li><a href="./Town.html" target="_self" >ホームページ</a></li>
+        <li><a href="#">Food and drink</a></li>
+        <li><a href="./touristSpots.html">Tourist　Spots</a></li>
+        <li><a href="#">culture</a></li>
+        <li><a href="./FAQ.html">FAQ</a></li>
+        <li><a href="multi.html.ja">日本語</a></li>
+    </ul>
+    </header>
+    <img width="800" height="500" src="./iamges/guangzhouNight.jpg" alt="night scences of guangzhou" />
+    <p><a href="#intro" target="_self">ここをクリック</a></p>
+    <main>
+    <h2 id="intro">Introducing the town：</h2>
+    <article>
+        <p>
+            Guangzhou is a city located in Guangdong Province in southern China, with a population of approximately 15 million people<em>It is known for its Cantonese cuisine and beautiful scenery in the Pearl River Delta</em>
+             It is known for its Cantonese cuisine and beautiful scenery in the Pearl River Delta. Guangzhou is also one of the centers of business in China、with many companies having their headquarters there. Guangzhou South Railway Station is a central hub in China's high-speed railway network, providing convenient access to surrounding cities and Hong Kong.
+        </p>
+    </article>
+    <br />
+    <h3>Video:</h3>
+    <iframe width="610" height="380"
+       src="https://www.youtube.com/embed/YrPeoi7xAcw">
+     </iframe>
+        <details>
+            <summary>Dim sum culture</summary>
+            Guangdong Province is also known for its tradition of "yum cha," which translates to "drinking tea" in Cantonese. Yum cha involves enjoying small bites of food, called "dim sum," which are paired with Chinese tea. Dim sum refers to a wide variety of dishes, excluding main courses and soups, ranging from savory to sweet. There are now over 800 types of dim sum, with each region of China having its own unique variations. However, dim sum from the Guangdong region is particularly famous.
+        </details>
+    <hr />
+    <section>
+        <div>
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="4">三日旅行予算(日本から出発)</th>
+                    </tr>
+                    <tr>
+                       <th>Lodging</th>
+                       <th>Transportation</th>
+                       <th>Food and drink</th>
+                       <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>50k</td>
+                        <td>80k</td>
+                        <td>40k</td>
+                        <td>170k</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+    <label for="suggestion">このHTMLへのアドバイス:</label>
+    <textarea name="suggestion" id="suggestion" cols="40" rows="10" placeholder="アドバイスを頂けると幸いです"></textarea>
+    <button>提出</button>
+</main>
+<footer>
+    <p>学籍番号:72203576</p>
+    <p>学部学年:総合政策学部二年</p>
+    <p>名前:Cai Yifan(サイイチハン) &#169;</p>
+    <a href="mailto:caiyifan20010903-sfc-pm@keio.jp">私にメールを送信する</a>
+    <p>© 2023 Guangzhou Travel | Created by Cai Yifan</p>
+ </footer>
+</body>
+</html>
